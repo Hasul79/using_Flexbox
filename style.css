@@ -1,0 +1,19 @@
+body{
+    background:linear-gradient(to right, #09097a,blue, rgb(179, 175, 240) ) ;
+}
+form{
+    display: flex;
+    flex-wrap:wrap;
+    gap: 6px;
+}
+.name{
+    flex: 1 0 130px;
+}
+.email{
+    flex: 1 0 130px;
+}
+button{
+    flex: 1 0 40px;
+    background-color:#09097a;
+    color: white;
+}
